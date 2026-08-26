@@ -270,7 +270,7 @@ export default function Home() {
         <div className="hidden md:flex items-center gap-3">
           <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-gray-900/70 border border-gray-800 text-xs text-gray-300">
             <Cpu className="w-3.5 h-3.5 text-[#76b900]" />
-            <span>Embed: <strong className="text-white">nv-embedqa-e5-v5</strong></span>
+            <span>Embed: <strong className="text-white">nv-embedqa-1b-v2</strong></span>
           </div>
           <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-gray-900/70 border border-gray-800 text-xs text-gray-300">
             <Layers className="w-3.5 h-3.5 text-indigo-400" />

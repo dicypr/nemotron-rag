@@ -18,7 +18,7 @@ const CHAT_URL = "https://integrate.api.nvidia.com/v1/chat/completions";
 const EMBED_URL = "https://integrate.api.nvidia.com/v1/embeddings";
 const RERANK_URL = "https://integrate.api.nvidia.com/v1/ranking";
 
-const EMBED_MODEL = "nvidia/nv-embedqa-e5-v5";
+const EMBED_MODEL = "nvidia/llama-3.2-nv-embedqa-1b-v2";
 const RERANK_MODEL = "nvidia/llama-nemotron-rerank-1b-v2";
 const CHAT_MODEL = "nvidia/llama-3.3-nemotron-super-49b-v1.5";
 

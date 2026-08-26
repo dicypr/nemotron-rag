@@ -25,7 +25,7 @@ RERANK_URL = "https://integrate.api.nvidia.com/v1/ranking"
 # Models — get an API key for each on build.nvidia.com (same key works for all)
 # ---------------------------------------------------------------------------
 # 1. Embedding model — turns text chunks into vectors for similarity search.
-EMBED_MODEL = "nvidia/nv-embedqa-e5-v5"
+EMBED_MODEL = "nvidia/llama-3.2-nv-embedqa-1b-v2"
 
 # 2. Reranker model — re-scores the top candidates for real relevance.
 RERANK_MODEL = "nvidia/llama-nemotron-rerank-1b-v2"
